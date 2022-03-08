@@ -2,7 +2,7 @@
 $db_host="localhost"; //localhost server 
 $db_user="root";	//database username
 $db_password="";	//database password   
-$db_name="Atletic Center";	//database name
+$db_name="atletic-center";	//database name
 
 try
 {
@@ -11,7 +11,7 @@ try
 }
 catch(PDOEXCEPTION $e)
 {
-	$e->getMessage();
+	echo "Error en la conexion: ". $e->getMessage();
 }
 
 ?>
