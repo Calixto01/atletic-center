@@ -35,7 +35,7 @@
 		      	<h3 class="text-center mb-4">Have an account?</h3>
 				<form action="conexion/validarLogin.php" class="login-form" method="POST">
 					<div class="form-group">
-						<input name="user" type="text" class="form-control rounded-left" placeholder="Nombre..." required>
+						<input name="email" type="email" class="form-control rounded-left" placeholder="example@example.com" required>
 					</div>
 					<div class="form-group d-flex">
 					<input name="pass" type="password" class="form-control rounded-left" placeholder="Contraseña..." required>

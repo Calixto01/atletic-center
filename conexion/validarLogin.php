@@ -2,11 +2,11 @@
     if ($_POST) {
         session_start();
         require ("conexion.php");
-        $user = $_POST['user'];
+        $email = $_POST['email'];
         $password = $_POST['pass'];
 
-        $query = $db->prepare("SELECT * FROM employees WHERE name = :u AND pass = :p");
-        $query -> bindParam(":u", $user);
+        $query = $db->prepare("SELECT * FROM employees WHERE email = :e AND pass = :p");
+        $query -> bindParam(":e", $email);
         $query -> bindParam(":p", $password);
         $query -> execute();
 
