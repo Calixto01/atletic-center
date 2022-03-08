@@ -30,23 +30,22 @@
                 <li class="nav-item d-none d-sm-inline-block">
                   <a href="contacto.php" class="nav-link">Contact</a>
                 </li>
-                <li class="nav-item dropdown">
+                <div class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Help
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">FAQ</a>
                     <a class="dropdown-item" href="#">Support</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Contact</a>
                   </div>
-                </li>
+                </div>
               </ul>
-          
-        
             </div>
           </nav>
-          <!-- /.navbar -->
+          <!-- /.navbar ---------------------------------------------------------------------------------->
+          
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="visualizacion.php" class="brand-link">
@@ -94,7 +93,7 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="settings" class="nav-link">
+                    <a href="settings.php" class="nav-link">
                     <i class="fa-solid fa-gear nav-icon"></i>
                       <p>
                         settings
