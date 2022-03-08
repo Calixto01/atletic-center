@@ -157,16 +157,6 @@
                   <a href="#" class="d-block">Alejandro Calixto</a>
                 </div>
               </div>
-              <form class="form-inline">
-                <div class="input-group">
-                  <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-                  <div class="input-group-append">
-                    <button class="btn btn-sidebar" type="submit">
-                      <i class="fas fa-search"></i>
-                    </button>
-                  </div>
-                </div>
-              </form>
               <!-- Sidebar Menu -->
               <nav class="mt-2">
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu">
