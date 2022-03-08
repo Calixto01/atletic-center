@@ -190,7 +190,7 @@
                     <i class="fa-solid fa-gear nav-icon"></i>
                       <p>
                         settings
-                        <span class="right badge badge-danger">New</span>
+                        <span class="right badge badge-success">fix</span>
                       </p>
                     </a>
                   </li>
@@ -199,7 +199,7 @@
                       <i class="fa-regular fa-address-card nav-icon"></i>
                       <p>
                         Usuarios
-                        <span class="right badge badge-danger">New</span>
+                        <span class="right badge badge-info">info</span>
                       </p>
                     </a>
                   </li>
