@@ -31,7 +31,7 @@
                   <a href="contacto.php" class="nav-link">Contact</a>
                 </li>
                 <div class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Help
                   </a>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
