@@ -4,7 +4,6 @@
 
 ?>
 
-<!--Prueba Commit-->
 <!doctype html>
 <html lang="en">
   <head>
@@ -34,29 +33,29 @@
 		      		<span class="fa fa-user-o"></span>
 		      	</div>
 		      	<h3 class="text-center mb-4">Have an account?</h3>
-						<form action="#" class="login-form">
-		      		<div class="form-group">
-		      			<input type="text" class="form-control rounded-left" placeholder="Username" required>
-		      		</div>
-	            <div class="form-group d-flex">
-	              <input type="password" class="form-control rounded-left" placeholder="Password" required>
-	            </div>
-	            <div class="form-group d-md-flex">
-	            	<div class="w-50">
-	            		<label class="checkbox-wrap checkbox-primary">Remember Me
-									  <input type="checkbox" checked>
-									  <span class="checkmark"></span>
-									</label>
-								</div>
-								<div class="w-50 text-md-right">
-									<a href="#">Forgot Password</a>
-								</div>
-	            </div>
-	            <div class="form-group">
+				<form action="conexion/validarLogin.php" class="login-form" method="POST">
+					<div class="form-group">
+						<input name="user" type="text" class="form-control rounded-left" placeholder="Nombre..." required>
+					</div>
+					<div class="form-group d-flex">
+					<input name="pass" type="password" class="form-control rounded-left" placeholder="Contraseña..." required>
+					</div>
+	            	<div class="form-group d-md-flex">
+	            		<div class="w-50">
+	            			<label class="checkbox-wrap checkbox-primary">Remember Me
+								<input type="checkbox" checked>
+								<span class="checkmark"></span>
+							</label>
+						</div>
+						<div class="w-50 text-md-right">
+							<a href="#">Forgot Password</a>
+						</div>
+	            	</div>
+	            	<div class="form-group">
 	            	<button type="submit" class="btn btn-primary rounded submit p-3 px-5">Get Started</button>
-	            </div>
-	          </form>
-	        </div>
+	            	</div>
+	          	</form>
+	        	</div>
 				</div>
 			</div>
 		</div>
