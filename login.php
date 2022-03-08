@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Login 08</title>
+  	<title>Admin | Login</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -56,10 +56,9 @@
 	</section>
 
 	<script src="/resources/js/jquery.min.js"></script>
-  <script src="/resources/js/popper.min.js"></script>
-  <script src="/resources/js/bootstrap.min.js"></script>
-  <script src="/resources/js/main.js"></script>
-
+  	<script src="/resources/js/popper.min.js"></script>
+  	<script src="/resources/js/bootstrap.min.js"></script>
+  	<script src="/resources/js/main.js"></script>
 	</body>
 </html>
 
