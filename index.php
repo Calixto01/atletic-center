@@ -36,17 +36,18 @@
                 <li class="nav-item d-none d-sm-inline-block">
                   <a href="contacto.php" class="nav-link">Contact</a>
                 </li>
-                <div class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Help
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">FAQ</a>
-                    <a class="dropdown-item" href="#">Support</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Contact</a>
-                  </div>
-                </div>
+
+                <div class="dropdown">
+                 <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                   Dropdown button
+                 </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                   <li><a class="dropdown-item" href="#">Action</a></li>
+                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                 </div>
+
                 <li class="nav-item d-none d-sm-inline-block">
                   <a href="/conexion/cerrarSesion.php" class="nav-link">Cerrar Sesión</a>
                 </li>
