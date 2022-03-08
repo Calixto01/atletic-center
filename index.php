@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="resources/css/adminlte.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>Atletic Center</title>
 </head>
 
@@ -24,7 +25,7 @@
                 <li class="nav-item">
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                  <a href="index3.html" class="nav-link">Home</a>
+                  <a href="index.php" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
                   <a href="#" class="nav-link">Contact</a>
@@ -173,7 +174,7 @@
                        with font-awesome or any other icon font library -->
                   <li class="nav-item menu-open">
                     <a href="#" class="nav-link active">
-                      <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <i class="fa-solid fa-bookmark nav-icon"></i>
                       <p>
                         Starter Pages
                         <i class="right fas fa-angle-left"></i>
@@ -182,30 +183,30 @@
                     <ul class="nav nav-treeview">
                       <li class="nav-item">
                         <a href="#" class="nav-link active">
-                          <i class="far fa-circle nav-icon"></i>
+                        <i class="fa-regular fa-circle nav-icon"></i>
                           <p>Active Page</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="#" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
+                        <i class="fa-regular fa-circle nav-icon"></i>
                           <p>Inactive Page</p>
                         </a>
                       </li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="nav-icon fas fa-th"></i>
+                    <a href="/" class="nav-link">
+                    <i class="fa-solid fa-gear nav-icon"></i>
                       <p>
-                        Simple Link
+                        settings
                         <span class="right badge badge-danger">New</span>
                       </p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="nav-icon fas fa-th"></i>
+                    <a href="usuarios.php" class="nav-link">
+                      <i class="fa-regular fa-address-card nav-icon"></i>
                       <p>
                         Usuarios
                         <span class="right badge badge-danger">New</span>
@@ -227,10 +228,10 @@
 <script src="resources/js/jquery.min.js"></script>
 <script src="resources/js/adminlte.min.js"></script>
 <script src="resources/js/popper.min.js"></script>
-<script src="resources/js/all icons.js"></script>
+<script src="resources/js/icons/all icons.js"></script>
 <script src="resources/js/regular.js"></script>
 <script src="resources/js/solid.js"></script>
-<script src="resources/js/fontawesome.js"></script>
+<script src="resources/js/icons/fontawesome.js"></script>
 
 </body>
 
