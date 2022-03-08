@@ -7,7 +7,11 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
+  <ul class="navbar-nav">
     <a class="navbar-brand" href="#">Atletic Center</a>
+    <li class="nav-item d-none d-sm-inline-block">
+    <a href="index.php" class="nav-link">Home</a>
+    </li>
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,6 +29,7 @@
         </li>
       </ul>
     </div>
+    </ul>
   </div>
 </nav>
 
