@@ -1,3 +1,9 @@
+<?php
+  session_start();
+  if(isset($_SESSION["usuario"])){
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -41,6 +47,9 @@
                     <a class="dropdown-item" href="#">Contact</a>
                   </div>
                 </div>
+                <li class="nav-item d-none d-sm-inline-block">
+                  <a href="/conexion/cerrarSesion.php" class="nav-link">Cerrar Sesión</a>
+                </li>
               </ul>
             </div>
           </nav>
@@ -133,3 +142,10 @@
 </body>
 
 </html>
+
+<?php
+  }
+  else{
+    header("location: login.php");
+  }
+?>
