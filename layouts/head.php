@@ -1,4 +1,10 @@
+<?php
 
+function head(){
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -14,8 +20,8 @@
 
 <body>
     <header>
-        <nav class="main-header  navbar navbar-expand navbar-dark navbar-dark">
-            <div class="container-fluid">
+        <nav class="main-header navbar navbar-expand navbar-dark navbar-dark">
+            <div class="container-fluid ">
               <!-- Left navbar links -->
               <ul class="navbar-nav">
                 <li class="nav-item">
@@ -39,11 +45,16 @@
 
                 
               </ul>
+              
             </div>
+            
           </nav>
+          
           <!-- /.navbar ---------------------------------------------------------------------------------->
           
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+
+          
+        <aside class="main-sidebar container-fluid  sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="visualizacion.php" class="brand-link">
               <img src="resources/images/logo.jpg" alt="Admin Logo" class="brand-image img-circle elevation-3"
@@ -51,7 +62,7 @@
               <span class="brand-text font-weight-light">Atletic Center</span>
             </a>
             <!-- Sidebar -->
-            <div class="sidebar">
+            <div class="sidebar container-fluid">
               <!-- Sidebar user panel (optional) -->
               <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image">
@@ -92,10 +103,13 @@
             <!-- /.sidebar -->
           </aside>
     </header>
+  <?php
+  }
+  function foot()
+  {
 
 
-
-
+?>
 <script src="resources/js/bootstrap.bundle.min.js"></script>
 <script src="resources/js/jquery.min.js"></script>
 <script src="resources/js/adminlte.min.js"></script>
@@ -108,3 +122,4 @@
 </body>
 
 </html>
+<?php }
