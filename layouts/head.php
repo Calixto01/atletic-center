@@ -71,7 +71,7 @@
                     <a href="settings.php" class="nav-link">
                     <i class="fa-solid fa-gear nav-icon"></i>
                       <p>
-                        settings
+                        Pruebas
                         <span class="right badge badge-success">fix</span>
                       </p>
                     </a>
